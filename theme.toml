@@ -1,0 +1,34 @@
+name = "sam"
+description = "A Simple and Minimalist theme with a focus on typography and content."
+license = "AGPL-3.0"
+homepage = "https://github.com/flyingP0tat0/zola-sam"
+min_version = "0.4.0"
+demo = "https://zola-sam.flyingp0tat0.xyz"
+
+[extra]
+show_word_count = true
+show_reading_time = true
+
+date_format = "%a %b %e, %Y"
+
+sam_menu = [
+    { text = "posts", link = "/posts" },
+    { text = "gallery", link = "/gallery" },
+    { text = "one", link = "https://example.com/one" },
+    { text = "two", link = "https://example.com/two" },
+    { text = "three", link = "https://example.com/three" }
+]
+
+sam_bottom_menu = true
+
+[extra.sam_footer]
+text = "Some footer text."
+
+[author]
+name = "Jan Baudisch"
+homepage = "https://flyingp0tat0.xyz"
+
+[original]
+author =  "Victoria"
+homepage = "https://hugo-sam.netlify.com"
+repo = "https://github.com/victoriadotdev/hugo-theme-sam"
