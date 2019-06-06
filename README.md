@@ -92,7 +92,7 @@ If enabled, you can opt-out per page via front-matter:
 
 Default: `false` (both)
 
-```toml
+```
 +++
 [extra]
 hide_word_count = true
@@ -106,7 +106,7 @@ If you want to disable the complete header of a page (for example a page which i
 
 Default: `false`
 
-```toml
+```
 +++
 [extra]
 no_header = true
