@@ -11,6 +11,8 @@ show_reading_time = true
 
 date_format = "%a %b %e, %Y"
 
+home = "home"
+
 sam_bottom_menu = true
 
 [author]

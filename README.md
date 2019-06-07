@@ -65,6 +65,17 @@ Default: `false`
 sam_bottom_menu = true
 ```
 
+### `home`
+
+Sets the name for all links referring to the home page in the menus and the 404 page.
+
+Default: `home`
+
+```toml
+[extra]
+home = "home"
+```
+
 ### Date format
 
 Specifies how to display dates. The format is described [here][date-format-docs].
