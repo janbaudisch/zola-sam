@@ -11,18 +11,7 @@ show_reading_time = true
 
 date_format = "%a %b %e, %Y"
 
-sam_menu = [
-    { text = "posts", link = "/posts" },
-    { text = "gallery", link = "/gallery" },
-    { text = "one", link = "https://example.com/one" },
-    { text = "two", link = "https://example.com/two" },
-    { text = "three", link = "https://example.com/three" }
-]
-
 sam_bottom_menu = true
-
-[extra.sam_footer]
-text = "Some footer text."
 
 [author]
 name = "Jan Baudisch"
