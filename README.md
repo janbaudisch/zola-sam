@@ -133,13 +133,13 @@ To place some text at the end of pages, set the following:
 text = "Some footer text."
 ```
 
-[build-img]: https://travis-ci.com/flyingP0tat0/zola-sam.svg?branch=master
-[build-url]: https://travis-ci.com/flyingP0tat0/zola-sam
+[build-img]: https://travis-ci.com/janbaudisch/zola-sam.svg?branch=master
+[build-url]: https://travis-ci.com/janbaudisch/zola-sam
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
-[demo-url]: https://zola-sam.flyingp0tat0.xyz
+[demo-url]: https://zola-sam.janbaudisch.dev
 [zola]: https://getzola.org
 [hugo-sam]: https://github.com/victoriadotdev/hugo-theme-sam
-[upstream]: https://github.com/flyingP0tat0/zola-sam/blob/master/upstream
-[upstream-license]: https://github.com/flyingP0tat0/zola-sam/blob/master/upstream/LICENSE
-[config]: https://github.com/flyingP0tat0/zola-sam/blob/master/config.toml
+[upstream]: https://github.com/janbaudisch/zola-sam/blob/master/upstream
+[upstream-license]: https://github.com/janbaudisch/zola-sam/blob/master/upstream/LICENSE
+[config]: https://github.com/janbaudisch/zola-sam/blob/master/config.toml
 [date-format-docs]: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
