@@ -20,13 +20,13 @@ See [`upstream`][upstream] for source code take from there.
 The easiest way to install this theme is to either clone it ...
 
 ```
-git clone https://github.com/flyingP0tat0/zola-sam.git themes/sam
+git clone https://github.com/janbaudisch/zola-sam.git themes/sam
 ```
 
 ... or to use it as a submodule.
 
 ```
-git submodule add https://github.com/flyingP0tat0/zola-sam.git themes/sam
+git submodule add https://github.com/janbaudisch/zola-sam.git themes/sam
 ```
 
 Either way, you will have to enable the theme in your `config.toml`.
