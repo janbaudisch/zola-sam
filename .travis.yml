@@ -3,11 +3,11 @@ dist: bionic
 language: generic
 
 install:
-  - .travis/install-zola.sh
+  - bash <(curl https://gist.githubusercontent.com/janbaudisch/555112ffe141bb9a3ac07f14b86a329a/raw/659f3713eec58c1945fb9246ecf1ba571fd6f064/install-zola.sh)
 
 script:
   - zola build
-  - cp .travis/CNAME public/CNAME
+  - echo zola-sam.janbaudisch.dev > public/CNAME
 
 deploy:
   provider: pages
