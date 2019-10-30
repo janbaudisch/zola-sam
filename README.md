@@ -133,6 +133,20 @@ To place some text at the end of pages, set the following:
 text = "Some footer text."
 ```
 
+### Additional stylesheets
+
+You can add stylesheets to override the theme:
+
+```toml
+[extra]
+stylesheets = [
+    "override.css",
+    "something_else.css"
+]
+```
+
+These filenames are relative to the root of the site. In this example, the two CSS files would be in the `static` folder (or in the `sass` folder and therefore compiled to CSS files in the `static` folder).
+
 [build-img]: https://travis-ci.com/janbaudisch/zola-sam.svg?branch=master
 [build-url]: https://travis-ci.com/janbaudisch/zola-sam
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg

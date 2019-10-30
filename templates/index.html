@@ -13,6 +13,12 @@
         <link rel="stylesheet" href="{{ get_url(path='fonts.css') }}">
         <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
 
+        {% if config.extra.stylesheets %}
+            {% for stylesheet in config.extra.stylesheets %}
+                <link rel="stylesheet" href="{{ get_url(path=stylesheet) }}">
+            {% endfor %}
+        {% endif %}
+
         <title>{% block htmltitle %}{{ config.title }}{% endblock htmltitle %}</title>
 
         {% if config.generate_rss %}
