@@ -10,6 +10,10 @@
     {{ macros::title_or_last(component=section) }}
 {% endblock title %}
 
+{% block sections %}
+    {{ macros::section_menu(path=section.relative_path) }}
+{% endblock sections %}
+
 {% block content %}
 <ul>
     {% for page in section.pages %}

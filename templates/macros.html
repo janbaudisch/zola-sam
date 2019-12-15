@@ -9,6 +9,17 @@
     {{ date | date(format=date_format) }}
 {% endmacro format_date %}
 
+{% macro section_menu(path) %}
+    <p>
+        {% set index = get_section(path=path) %}
+        {% for current in index.subsections %}
+            {% set current = get_section(path=current) %}
+            <a href="{{ current.permalink }}">{{ macros::title_or_last(component=current) }}</a>
+	    {% if loop.last == false %} &#183; {% endif %}
+        {% endfor %}
+    </p>
+{% endmacro section_menu %}
+
 {% macro bottom_menu() %}
     <div class="section bottom-menu">
         <hr/>
