@@ -1,0 +1,18 @@
+image: archlinux
+packages:
+  - curl
+  - rsync
+sources:
+  - https://github.com/janbaudisch/zola-sam
+secrets:
+  - d2be8e67-9e75-4024-8229-0afcffd1a161
+tasks:
+  - setup: |
+      curl -s https://paste.sr.ht/blob/a02ce97b659679a67e50c22da007e69ba26c3b13 | sh
+  - build: |
+      cd zola-sam
+      zola build
+  - deploy: |
+      [ ! -e ~/rsync ] && exit 0
+      cd zola-sam
+      ~/rsync public/ zola-sam

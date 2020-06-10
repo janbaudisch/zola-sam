@@ -133,8 +133,8 @@ To place some text at the end of pages, set the following:
 text = "Some footer text."
 ```
 
-[build-img]: https://travis-ci.com/janbaudisch/zola-sam.svg?branch=master
-[build-url]: https://travis-ci.com/janbaudisch/zola-sam
+[build-img]: https://builds.sr.ht/~janbaudisch/zola-sam.svg
+[build-url]: https://builds.sr.ht/~janbaudisch/zola-sam
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
 [demo-url]: https://zola-sam.janbaudisch.dev
 [zola]: https://getzola.org
