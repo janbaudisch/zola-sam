@@ -147,8 +147,8 @@ stylesheets = [
 
 These filenames are relative to the root of the site. In this example, the two CSS files would be in the `static` folder (or in the `sass` folder and therefore compiled to CSS files in the `static` folder).
 
-[build-img]: https://travis-ci.com/janbaudisch/zola-sam.svg?branch=master
-[build-url]: https://travis-ci.com/janbaudisch/zola-sam
+[build-img]: https://builds.sr.ht/~janbaudisch/zola-sam.svg
+[build-url]: https://builds.sr.ht/~janbaudisch/zola-sam
 [demo-img]: https://img.shields.io/badge/demo-live-green.svg
 [demo-url]: https://zola-sam.janbaudisch.dev
 [zola]: https://getzola.org
