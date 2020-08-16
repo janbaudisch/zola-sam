@@ -124,6 +124,23 @@ no_header = true
 +++
 ```
 
+### Taxonomies
+
+Sam currently only supports the `tags` taxonomy.
+
+```toml
+taxonomies = [
+    {name = "tags", rss = true}
+]
+```
+
+and then in your posts:
+
+```toml
+[taxonomies]
+tags = ["tag1", "tag2"]
+```
+
 ### Footer
 
 To place some text at the end of pages, set the following:
