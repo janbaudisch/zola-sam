@@ -1,6 +1,6 @@
 {% macro title_or_last(component, offset=2) %}
     {% set length = component.components | length %}
-    {% set name = component.components | slice(end=length - offset) | last %}
+    {% set name = component.components | last %}
     {{ component.title | default(value=name) }}
 {% endmacro title_or_last %}
 
