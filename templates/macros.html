@@ -15,7 +15,7 @@
         {% for current in index.subsections %}
             {% set current = get_section(path=current) %}
             <a href="{{ current.permalink }}">{{ macros::title_or_last(component=current) }}</a>
-	    {% if loop.last == false %} &#183; {% endif %}
+        {% if loop.last == false %} &#183; {% endif %}
         {% endfor %}
     </p>
 {% endmacro section_menu %}
