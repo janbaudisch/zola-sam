@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+    Authors - {{ config.title }}
+{% endblock htmltitle %}
+
+{% block title %}
+    Authors
+{% endblock title %}
+
+{% block content %}
+<ul>
+    {% for author in terms %}
+        <li><a href="{{ author.permalink }}">{{ author.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock content %}
