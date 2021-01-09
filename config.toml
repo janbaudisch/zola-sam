@@ -10,8 +10,8 @@ build_search_index = false
 check_external_links = true
 
 taxonomies = [
-    {name = "tags", rss = true},
-    {name = "authors", rss = true}
+    { name = "tags", rss = true },
+    { name = "authors", rss = true }
 ]
 
 [extra]
