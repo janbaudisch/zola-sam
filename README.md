@@ -35,6 +35,29 @@ Either way, you will have to enable the theme in your `config.toml`.
 theme = "sam"
 ```
 
+## Taxonomies
+
+Sam supports the `tags` and `authors` taxonomies.
+
+To use them, declare them in your `config.toml`:
+
+```toml
+taxonomies = [
+    { name = "tags", rss = true },
+    { name = "authors", rss = true }
+]
+```
+
+Set them in your page's frontmatter:
+
+```toml
+[taxonomies]
+tags = ["some", "tag"]
+authors = ["Alice", "Sam"]
+```
+
+See [Zola's documentation][taxonomies-docs] for more details.
+
 ## Options
 
 See [`config.toml`][config] for an example configuration.
@@ -141,5 +164,6 @@ text = "Some footer text."
 [hugo-sam]: https://github.com/victoriadotdev/hugo-theme-sam
 [upstream]: https://github.com/janbaudisch/zola-sam/blob/master/upstream
 [upstream-license]: https://github.com/janbaudisch/zola-sam/blob/master/upstream/LICENSE
+[taxonomies-docs]: https://www.getzola.org/documentation/content/taxonomies
 [config]: https://github.com/janbaudisch/zola-sam/blob/master/config.toml
 [date-format-docs]: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
