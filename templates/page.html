@@ -32,7 +32,7 @@
         {% endif %}
         {% if page.taxonomies.tags %}
             <div class="tag-container">
-                Tags : 
+                Tags :&nbsp;
                 {% for tag in page.taxonomies.tags %}
                     <span class="tag">
                         <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}">
@@ -44,7 +44,7 @@
         {% endif %}
         {% if page.taxonomies.authors %}
             <div class="tag-container">
-                Authors :
+                Authors :&nbsp;
                 {% for author in page.taxonomies.authors %}
                     <span class="tag">
                         <a href="{{ get_taxonomy_url(kind='authors', name=author) }}">
