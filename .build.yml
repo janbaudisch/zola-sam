@@ -5,7 +5,8 @@ packages:
 sources:
   - https://github.com/janbaudisch/zola-sam
 secrets:
-  - d2be8e67-9e75-4024-8229-0afcffd1a161
+  - b3e03761-91c2-4df1-b4ce-0ae980fa4579
+  - 251ba7a6-aebe-4580-a8e0-714a6ffa1745
 tasks:
   - setup: |
       curl -s https://paste.sr.ht/blob/a02ce97b659679a67e50c22da007e69ba26c3b13 | sh
@@ -13,6 +14,6 @@ tasks:
       cd zola-sam
       zola build
   - deploy: |
-      [ ! -e ~/rsync ] && exit 0
+      [ ! -e ~/deploy ] && exit 0
       cd zola-sam
-      ~/rsync public/ zola-sam
+      ~/deploy public zola-sam.janbaudisch.dev
